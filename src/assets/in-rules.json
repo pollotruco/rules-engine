@@ -1,0 +1,43 @@
+[
+  { 
+    "name": "rules-1",
+    "unit_uuid": "",
+    "description" : "",
+    "highlighs": "field-a|field-b",
+    "condtions": [
+          {
+            "expression": "field-a,=,1|or|field-b,=,3"
+          },
+          {
+            "operator": "and",
+            "joiner": true
+          },
+          {
+            "expression": "field-c,=,5"
+          }
+      ],
+      "create_by": null,
+      "create_date": null,
+      "update_by": null,
+      "update_date": null
+    }
+]
+
+FIELD DROPDOWNS
+
+
+CONDITIONS DROPDOWNS
+
+EQUAL , EXMPLE: '100'
+NOTEQUAL 
+LESS THAN
+INCLUDE
+LEN MORE THAN 
+LEN MORE EQUAL 
+LEN LESS THAN
+NOT LIKE.  EXAMPLE: '%AIR%' 
+
+VALUE FREE TEXT
+%ASSEMBLED%
+
+

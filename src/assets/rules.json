@@ -1,0 +1,40 @@
+
+  [
+    {
+    "name": "rule-1",
+    "expiration_date": null,
+    "conditions": [
+       {
+         "field": "field-a",
+         "operator": "=",
+         "value": "1"
+       },
+       { 
+         "operator": "and"
+       },
+       {
+          "field": "field-b",
+          "operator": "<>",
+          "value": "0"
+        }
+      ],
+      "highlighs": [
+        "field-a",
+        "field-b"
+      ] 
+    },
+    {
+    "name": "rule-2",
+    "expiration_date": null,
+    "conditions": [
+       {
+         "field": "field-c",
+         "operator": "includes",
+         "value": "(300,400,500)"
+       }
+      ],
+      "highlighs": [
+        "field-c"
+      ]  
+    }
+  ]
